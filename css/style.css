@@ -642,3 +642,41 @@ h1, h2, h3, h4, h5, h6 {
     padding-right: 0;
     border-right: none;
 }
+
+.back-to-top {
+    position: fixed;
+    display: none;
+    left: 45px;
+    right: auto;
+    bottom: 45px;
+    z-index: 99;
+}
+
+/*--------------------------------------------------------------
+# Whatsapp
+--------------------------------------------------------------*/
+
+.float {
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    right: 40px;
+    bottom: 40px;
+    background-color: #25D366;
+    color: #fff;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 30px;
+    z-index: 100;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.float:hover {
+    color: #fff;
+}
+
+.my-float {
+    margin: 0;
+}
